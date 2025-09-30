@@ -1,0 +1,97 @@
+@font-face {
+    font-family: "Lato";
+    src: url(./Lato/Lato-Regular.ttf);
+
+}
+@font-face {
+    font-family: "Rufina";
+    src: url(./Rufina/Rufina-Bold.ttf);
+    font-weight: bold;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.btn{
+    font-family: "Rufina";
+    height: 4rem;
+    font-size: 1.5rem;
+    color: white;
+    padding: 0 2.5rem;
+    border: 2px solid white;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    white-space: nowrap;
+
+
+}
+.btn.clear{
+    background-color: rgba(0,0,0,0);
+}
+.page-header{
+    background-image: url("./photos/menu-header.png");
+    padding: 1rem 5rem 8rem 5rem;
+    color: white;
+    background-size:  cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    }
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem;
+    width: 100%;
+}
+ .navbar .left{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+ }
+ .navbar .right{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+ }
+ .navbar .nav-menu{
+    width: 3rem;
+    height: auto;
+ }
+ .navbar .logo{
+    height: 5rem;
+ }
+ 
+ .navbar .right .phone{
+    font-family: "Lato";
+    font-size: 1.2rem;
+ }
+
+ .page-header .hero-section{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 2rem;
+ }
+
+ .title{
+    font-family: "Rufina";
+    font-size: 6rem;
+    width: 70%;
+    line-height: 0.9;
+    margin: 0;
+ }
+
+ .subtitle{
+    font-family: "Rufina";
+    font-size: 1rem;
+    margin-top: 2rem;
+    width: 60%;
+ }
