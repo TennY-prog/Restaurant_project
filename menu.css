@@ -95,3 +95,108 @@ body{
     margin-top: 2rem;
     width: 60%;
  }
+
+ /* main content styles */
+
+ main{
+    overflow-x: hidden;
+ }
+ .section-heading-container{
+    text-align: center;
+    padding: 4rem 2rem 2rem 2rem;
+ }
+
+ .section-heading-container .section-title{
+    font-family: "Rufina";
+    font-size: 5rem;
+    margin-bottom: 1rem;
+    margin-top: 0;
+ }
+
+ .section-heading-container .section-subtitle{
+    font-family: "Lato";
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    margin-top: 0;
+ }
+
+ .menu-container{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   padding: 3rem 8rem;
+   background-color: blanchedalmond;
+   gap: 4rem;
+ }
+
+ .menu-container .menu-img{
+   width: 50%;
+   height: auto;
+   object-fit: cover;
+ }
+
+ .menu-container .menu-item > p{
+   font-size: 2.5rem;
+   font-family: "Rufina";
+   text-align: right;
+   margin-bottom: 0.5rem;
+   margin-top: 0;
+ }
+
+ .menu-container .menu-item .item-info{
+   border-top: 4px dotted black;
+   padding-top: 1.5rem;
+   padding-bottom: 0.5rem;
+ }
+
+ .menu-container .menu-item .item-info h3{
+   font-size: 3.6rem;
+   font-family: "Rufina";
+   margin-top: 0;
+   margin-bottom: 1rem;
+   line-height: 1.1;
+ }
+
+ .menu-container .menu-item .item-info p{
+   font-size: 1.2rem;
+   font-family: "Lato";
+   margin: 0;
+   line-height: 1.1;
+ }
+
+ .reservation-container{
+   background-color: #ebf0e4;
+   padding: 8rem 8rem;
+   text-align: center;
+ }
+
+ .reservation-container .scheduling-container{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   margin-top: 4rem;
+   gap: 2rem;
+ }
+
+ .scheduling-container input,
+ .scheduling-container select{
+   flex: 1;
+   height: 3rem;
+   border: 2px solid black;
+   padding: 0 2rem;
+   background-color: #ebf0e4;
+   font-size: 1.5rem;
+   font-family: "Lato";
+ }
+
+ .btn.primary{
+   background-color: #233000;
+   border: 2px solid black;
+   margin-top: 4rem;
+   padding: 0 4rem;
+ }
+
+ .btn.primary:hover{
+   background-color: #2d4000;
+ }
